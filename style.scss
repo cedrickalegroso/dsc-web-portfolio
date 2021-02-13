@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap');
+html,
+body {
+    background-color: white;
+}
+
+#loading {
+    display: none;
+}
+
+#mainscreenwrapper {
+    display: block;
+    background-image: url('/assets/svg/bg.svg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    #bgwrap {
+        .hrz {
+            .testhr1 {
+                z-index: 0;
+                position: fixed;
+                border-left: 1px solid black;
+                opacity: 0.1;
+                width: 100vw;
+                top: 10%;
+            }
+            .testhr2 {
+                z-index: 0;
+                position: fixed;
+                border-left: 1px solid black;
+                opacity: 0.1;
+                width: 100vw;
+                top: 20%;
+            }
+            .testhr3 {
+                z-index: 0;
+                position: fixed;
+                border-left: 1px solid black;
+                opacity: 0.1;
+                width: 100vw;
+                top: 30%;
+            }
+            .testhr4 {
+                z-index: 0;
+                position: fixed;
+                border-left: 1px solid black;
+                opacity: 0.1;
+                width: 100vw;
+                top: 40%;
+            }
+            .testhr5 {
+                z-index: 0;
+                position: fixed;
+                border-left: 1px solid black;
+                opacity: 0.1;
+                top: 50%;
+                width: 100vw;
+            }
+            .testhr6 {
+                z-index: 0;
+                position: fixed;
+                border-left: 1px solid black;
+                opacity: 0.1;
+                top: 60%;
+                width: 100vw;
+            }
+            .testhr7 {
+                z-index: 0;
+                border-left: 1px solid black;
+                opacity: 0.1;
+                top: 70%;
+                position: fixed;
+                width: 100vw;
+            }
+            .testhr8 {
+                z-index: 0;
+                border-left: 1px solid black;
+                opacity: 0.1;
+                top: 80%;
+                position: fixed;
+                width: 100vw;
+            }
+            .testhr9 {
+                z-index: 0;
+                border-left: 1px solid black;
+                opacity: 0.1;
+                top: 90%;
+                position: fixed;
+                width: 100vw;
+            }
+            .testhr10 {
+                z-index: 0;
+                border-left: 1px solid black;
+                opacity: 0.1;
+                top: 100%;
+                position: fixed;
+                width: 100vw;
+            }
+        }
+        .lines {
+            .line1 {
+                position: fixed;
+                z-index: 0;
+                height: 100%;
+                border-left: 1px solid black;
+                opacity: 0.1;
+                left: 10%;
+            }
+            .line2 {
+                position: fixed;
+                z-index: 0;
+                height: 100%;
+                border-left: 1px solid black;
+                opacity: 0.1;
+                left: 20%;
+            }
+            .line3 {
+                position: fixed;
+                z-index: 0;
+                height: 100%;
+                border-left: 1px solid black;
+                opacity: 0.1;
+                left: 30%;
+            }
+            .line4 {
+                position: fixed;
+                z-index: 0;
+                height: 100%;
+                border-left: 1px solid black;
+                opacity: 0.1;
+                left: 40%;
+            }
+            .line5 {
+                position: fixed;
+                z-index: 0;
+                height: 100%;
+                border-left: 1px solid black;
+                opacity: 0.1;
+                left: 50%;
+            }
+            .line6 {
+                position: fixed;
+                z-index: 0;
+                height: 100%;
+                border-left: 1px solid black;
+                opacity: 0.1;
+                left: 60%;
+            }
+            .line7 {
+                position: fixed;
+                z-index: 0;
+                height: 100%;
+                border-left: 1px solid black;
+                opacity: 0.1;
+                left: 70%;
+            }
+            .line8 {
+                position: fixed;
+                z-index: 0;
+                height: 100%;
+                border-left: 1px solid black;
+                opacity: 0.1;
+                left: 80%;
+            }
+            .line9 {
+                position: fixed;
+                z-index: 0;
+                height: 100%;
+                border-left: 1px solid black;
+                opacity: 0.1;
+                left: 90%;
+            }
+            .line10 {
+                position: fixed;
+                z-index: 0;
+                height: 100%;
+                border-left: 1px solid black;
+                opacity: 0.1;
+                left: 100%;
+            }
+        }
+    }
+    #contentwrapper {
+        z-index: 1000;
+        * {
+            font-family: 'Roboto Mono', monospace;
+        }
+        h1 {
+            color: black;
+        }
+        h1.big-mainscreen {
+            font-size: 10rem;
+        }
+        .list-workshops {
+            list-style-type: none;
+        }
+        .cpu {
+            display: inline;
+            span.a {
+                display: inline;
+                /* the default for span */
+                width: 100px;
+                height: 100px;
+                padding: 5px;
+                hr.longline {
+                    width: 10%;
+                }
+            }
+            span.b {
+                display: inline-block;
+                width: 100px;
+                height: 100px;
+                padding: 5px;
+                margin-left: 10%;
+            }
+        }
+    }
+}
