@@ -1,2 +1,2 @@
-
+let MenuInitializer=0;function openMenu(){if(0==MenuInitializer){let e=gsap.timeline();colors=["#EA4335","#0F9D58","#FBBC04","#4285F4"],ey=Math.floor(4*Math.random())+1,document.getElementsByTagName("body")[0].style.overflowY="hidden",document.getElementById("Menu").style.display="block",document.getElementById("Menu").style.backgroundColor=colors[ey],e.to("#Menu",.5,{width:"100vw"}),e.to("#contents",.5,{opacity:"1"}),MenuInitializer=1}else{let e=gsap.timeline();e.to("#contents",.5,{opacity:"0"}),e.to("#Menu",.5,{width:"0vw"}),MenuInitializer=0}}
 //# sourceMappingURL=main-dist.js.map

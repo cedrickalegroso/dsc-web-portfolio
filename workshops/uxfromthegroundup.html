@@ -1,65 +1,148 @@
 <!DOCTYPE html>
 <html lang="en">
 <meta charset="UTF-8">
-<title>UX from the Ground Up</title>
+<title>UX From the Ground Up</title>
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <!-- Boostrap and CSS -->
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/gsap.min.js"></script>
 <link rel="stylesheet" href="../style.css">
 <link rel="icon" type="image/png" href="../assets/svg/dsc.svg">
 
+<div id="Menu">
+
+    <header>
+
+        <div class="navbar  h-20">
+            <div class="container d-flex justify-content-between">
+                <a href="#" class="navbar-brand d-flex align-items-center">
+
+                </a>
+                <img onclick="openMenu()" width="50px" src="/assets/imgs/close.svg" />
+            </div>
+        </div>
+    </header>
+
+
+</div>
+
+
 <body>
+
+
+    <header>
+
+        <div class="navbar  h-20">
+            <div class="container d-flex justify-content-between">
+                <a href="../index.html" class="navbar-brand d-flex align-items-center">
+                    <img width="35px" src="/assets/imgs/logo.svg" />
+                    <span style="margin-left: 10px; color: black!important;">Developer Student Clubs </span>
+                </a>
+                <img onclick="openMenu()" width="50px" src="/assets/imgs/menu.svg" />
+
+            </div>
+        </div>
+    </header>
+
 
 
 
     <div id="mainscreenwrapper">
 
-        <div id="bgwrap">
-            <div class="lines">
-                <div class="line1"></div>
-                <div class="line2"></div>
-                <div class="line3"></div>
-                <div class="line4"></div>
-                <div class="line5"></div>
-                <div class="line6"></div>
-                <div class="line7"></div>
-                <div class="line8"></div>
-                <div class="line9"></div>
-                <div class="line10"></div>
-            </div>
-
-            <div class="hrz">
-                <hr class="testhr1">
-                <hr class="testhr2">
-                <hr class="testhr3">
-                <hr class="testhr4">
-                <hr class="testhr5">
-                <hr class="testhr6">
-                <hr class="testhr7">
-                <hr class="testhr8">
-                <hr class="testhr9">
-                <hr class="testhr10">
-            </div>
-
-        </div>
 
         <div id="contentwrapper">
 
+            <img class="img-fluid ontop" src="../assets/imgs/ui.png"> </img>
+            <br /><br />
             <div class="container">
-                <div class="row h-100">
-                    <div class="col-sm-12 my-auto">
-                        <h2 class="big-mainscreen"> UX from the Ground Up
-                        </h2>
-                        <p> <strong> September 26, 2020</strong> </p>
-                        <p>8:00 PM - 10:00 PM (+08) </p>
-                        <p> Google Meet</p>
-                        <span class="a">
-                            UX from the Ground Up with Justine Win Cañate was a talk aimed towards giving participants a firm grasp on the fundamentals of designing while keeping the user's experience in mind.
+                <div class="row ">
+
+
+
+
+
+
+
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <p> <strong> September 26, 2020</strong> </p>
+                                <p>8:00 PM - 10:00 PM (+08) </p>
+                                <p> Google meet</p>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="contiainer-fluid">
+                                    <div class="row">
+                                        <div class="col-md-4">
+                                            <img class="speaker-img " src="../assets/imgs/justine.png" alt="">
+                                        </div>
+                                        <div class="col-md-8 speakerdetails ">
+                                            <h3> Justine Win </h3>
+
+                                            <p class="text-info" data-toggle="modal" data-target="#speaker"> More details </p>
+
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+
+                <hr>
+
+                <div class="row">
+                    <span class="text-desc">
+                        UX from the Ground Up with Justine Win is a talk aimed towards giving participants a firm grasp on the fundamentals of designing while keeping the user's experience in mind.
+
+                        </span>
+                </div>
+
+
+            </div>
+
+
+            <div id="spacer"></div>
+
+
+            <div class="container">
+
                         </span>
                     </div>
                 </div>
             </div>
+
+
+            <!-- Modal -->
+            <div class="modal fade" id="speaker" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Meet the Speaker</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+                        </div>
+                        <div class="modal-body">
+                            <p>
+                                Justine Win Cañete, Shopify Product Designer Justine realized she wanted to be a designer after attending a hackathon in college and has since gone on to do bigger and better things including, but not limited, to speaking at UX+ Conference 2020 and working
+                                at Shopify as a product designer.
+
+                            </p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+
+
+
+            <div id="spacer"></div>
 
 
 
@@ -72,9 +155,17 @@
 
 </body>
 
-
+<script src="../main-dist.js"></script>
+<script src="../assets/js/barba.js"></script>
+<script src="../assets/js/locomotive.js"></script>
 <footer>
-    <script src="main-dist.js"></script>
+    <div class="container-fluid">
+        <div class="row footerstyling text-center  text-white">
+            <div class="col-sm-12 my-auto">
+                <p> Developed with 💗 by DSC-CPU 2020-2021 </p>
+            </div>
+        </div>
+    </div>
 </footer>
 
 
