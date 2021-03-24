@@ -1,82 +1,342 @@
-<!DOCTYPE html>
-<html lang="en">
-<meta charset="UTF-8">
-<title>INFO SESSION - CPU</title>
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<!-- Boostrap and CSS -->
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
-<link rel="stylesheet" href="../style.css">
-<link rel="icon" type="image/png" href="../assets/svg/dsc.svg">
+<body data-barba="wrapper">
 
-<body>
+    <!DOCTYPE html>
+
+    <html lang="en">
+    <meta charset="UTF-8">
+    <title>Developer Student Clubs - About us</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <script src="https://unpkg.com/@barba/core"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+    <link rel="icon" type="image/png" href="assets/svg/logo.svg">
 
 
+    <div id="Menu">
 
-    <div id="mainscreenwrapper">
+        <header>
 
-        <div id="bgwrap">
-            <div class="lines">
-                <div class="line1"></div>
-                <div class="line2"></div>
-                <div class="line3"></div>
-                <div class="line4"></div>
-                <div class="line5"></div>
-                <div class="line6"></div>
-                <div class="line7"></div>
-                <div class="line8"></div>
-                <div class="line9"></div>
-                <div class="line10"></div>
+            <div class="navbar  h-20">
+                <div class="container d-flex justify-content-between">
+                    <a href="index.html" class="navbar-brand d-flex align-items-center">
+
+                    </a>
+                    <img id="logoMenuInside" onclick="openMenu()" width="50px" src="/assets/imgs/close.svg" />
+                </div>
             </div>
+        </header>
 
-            <div class="hrz">
-                <hr class="testhr1">
-                <hr class="testhr2">
-                <hr class="testhr3">
-                <hr class="testhr4">
-                <hr class="testhr5">
-                <hr class="testhr6">
-                <hr class="testhr7">
-                <hr class="testhr8">
-                <hr class="testhr9">
-                <hr class="testhr10">
-            </div>
-
-        </div>
-
-        <div id="contentwrapper">
-
-            <div class="container">
-                <div class="row h-100">
+        <div class="contianer text-center">
+            <div class="row">
+                <div class="h-100">
                     <div class="col-sm-12 my-auto">
-                        <h2 class="big-mainscreen"> INFO SESSION </h2>
-                        <p> <strong> August 29, 2020</strong> </p>
-                        <p>3:00 PM - 5:00 PM (+08)</p>
-                        <p> Google Meet, FB Live</p>
-                        <span class="a">Frequently Asked Questions (FAQs) were answered by Developer Student Club Central Philippine University during the event. Students also got a chance to ask any questions they had in mind.
-                        </span>
+                        <div id="contents">
+                            <hr>
+                            <a class="MenuLInk" href="../index.html">
+                                <h1 class="display-4"> Home </h1>
+                            </a>
+                            <hr>
+                            <a class="MenuLInk" href="../aboutus.html">
+                                <h1 class="display-4"> About Us </h1>
+                            </a>
+                            <hr>
+                            <a class="MenuLInk" href="../workshops.html">
+                                <h1 class="display-4"> Workshops </h1>
+                            </a>
+                            <hr>
+                            <a class="MenuLInk" href="participations.html">
+                                <h1 class="display-4"> Participations </h1>
+                            </a>
+                            <hr>
+                            <a class="MenuLInk" href="outreach.html">
+                                <h1 class="display-4"> Outreach </h1>
+                            </a>
+                            <hr>
+                            <a class="MenuLInk" href="solnchal.html">
+                                <h1 class="display-4"> Solution Challenge </h1>
+                            </a>
+                            <hr>
+
+                        </div>
                     </div>
                 </div>
             </div>
-
-
-
         </div>
 
     </div>
 
 
+    <ul class="transition">
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
+
+
+    <header>
+
+        <div class="navbar  h-20">
+            <div class="container d-flex justify-content-between">
+                <a href="../index.html" class="navbar-brand d-flex align-items-center">
+                    <img width="35px" src="/assets/imgs/logo.svg" />
+                    <span id="menuLabelDesktop" style="margin-left: 10px; color: black!important;">Developer Student Clubs </span>
+                    <span id="menuLabelMobile" style="margin-left: 10px; color: black!important;">DSC - CPU </span>
+                </a>
+                <img id="logoMenu" onclick="openMenu()" width="50px" src="/assets/imgs/menu.svg" />
+
+            </div>
+        </div>
+    </header>
+
+    <main data-barba="container" data-barba-namespace="home">
+
+        <div id="mainscreenwrapper">
+
+
+            <div id="contentwrapper">
+
+                <img class="img-fluid ontop" src="../assets/imgs/bgwork.png"> </img>
+
+
+
+                <div class="container-fluid bg1 p-5">
+
+
+                    <div class="row text-center ">
+                        <div class="col-sm-12 my-auto ">
+                            <h1 class="display-3"> About this event </h1>
+                            <span class="text-desc ">
+                                "What is a DSC?"
+    
+    "What does a DSC do?"
+    
+    "Who can join a DSC?"
+    
+    "What will I be able to do if I join a DSC?"
+    
+    These are some of the Frequently Asked Questions (FAQs) that the Developer Student Club Central Philippine University will be answering during the event. In addition, you'll also be able to get your time to shine and ask any questions you have in mind whether that's about future events or the benefits of joining a DSC.
+    
+    So stay tuned and see you on August 29th 2020!
+                            </span>
+
+
+                            <div id="spacerpromin"></div>
+                            <p> Watch the full event </p>
+                            <iframe width="100%" height="641" src="https://www.youtube.com/embed/u4955C-dy-I" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                                </iframe>
+                        </div>
+                    </div>
+
+                </div>
+
+
+
+                <div id="spacer"></div>
+
+
+
+
+                <!-- 
+    
+                    
+                <div class="container-fluid bg2    p-5">
+    
+                    <div class="container containerPro">
+                        <h1 class="display-4 text-center"> Speakers </h1>
+                        <div id="spacerpromin"></div>
+                        <div class="card-body text-center border-primary p-5 mb-5 bg-white rounded ">
+                            <div class="text-center">
+    
+                                <img src="../assets/imgs/joshua.jfif" class="speaker-img img-fluid"></img>
+                                <div id="spacerpromin"></div>
+                                <h3>Joshua De Guzman
+    
+                                </h3>
+    
+                                <p> betterbank.app
+    
+                                </p>
+    
+                                <p> Software Engineer
+    
+    
+    
+                                </p>
+    
+                                <p>
+                                    Joshua is a software engineer with a passion for learning and teaching. He is currently working as a Software Engineer at Freelancer.com, and the Founder and Community Lead of Flutter Philippines. Life outside work, he enjoys exploring and contributing
+                                    to open-source projects, asking and answering questions on StackOverflow, and sharing his experiences and knowledge with the community.
+                                </p>
+                            </div>
+    
+                        </div>
+    
+    
+                        <div id="spacerpromin"></div>
+                        <div class="card-body text-center border-primary p-5 mb-5 bg-white rounded ">
+                            <div class="text-center">
+    
+                                <img src="../assets/imgs/harv.jpg" class="speaker-img img-fluid"></img>
+                                <div id="spacerpromin"></div>
+                                <h3> Harvey Jay Sison
+    
+                                </h3>
+    
+                                <p> Full Stack Web & Mobile Software Engineer
+    
+                                </p>
+    
+    
+    
+                                <p>
+                                    Harvey Sison is training to be a full stack software engineer, aspiring to be technopreneur and a UX Enthuasiast from Quezon City, Philippines. He's currently a senior Management Engineering student from the Ateneo de Manila University. At the same time,
+                                    he's a Platform Engineer at Exora Technologies Incorporated and is doing software development and UX/UI design freelance work. Currently, he is the President and Co-Founder of Developer Student Clubs Loyola, a student organization
+                                    that uplifts community through technology and powered by Google Developers. Furthermore, he is the former Executive Vice President and presently back again to his previous position as the Vice President of Engineering of
+                                    User Experience Society, a student organization that advocates for human-centered design.
+    
+    
+                                </p>
+                            </div>
+    
+                        </div>
+    
+    
+    
+                        <div id="spacerpromin"></div>
+                        <div class="card-body text-center border-primary p-5 mb-5 bg-white rounded ">
+                            <div class="text-center">
+    
+                                <img src="../assets/imgs/sakina.jpg" class="speaker-img img-fluid"></img>
+                                <div id="spacerpromin"></div>
+                                <h3> Sakina Abbas
+    
+    
+                                </h3>
+    
+                                <p> ReacTree
+    
+    
+    
+                                </p>
+    
+    
+                                <p> Co - Founder & CEO
+    
+    
+    
+    
+    
+                                </p>
+    
+    
+    
+                                <p>
+                                    I'm a Co-Founder first and a CEO later, which is exactly what my header says. My curiosity, quirky thought process and thirst for knowledge fuel me to find answers to pressing questions. From coming up with the right choice of words for a Sales Copy to
+                                    crafting the most efficient code for a software, I've been able to effectively spot customers' pain points and identify optimal solutions to empower our clients and enable them to innovate and grow.
+    
+    
+                                </p>
+                            </div>
+    
+                        </div>
+    
+    
+    
+                        <div id="spacerpromin"></div>
+                        <div class="card-body text-center border-primary p-5 mb-5 bg-white rounded ">
+                            <div class="text-center">
+    
+                                <img src="../assets/imgs/joe.jfif" class="speaker-img img-fluid"></img>
+                                <div id="spacerpromin"></div>
+                                <h3> Joennie Sindo
+    
+    
+                                </h3>
+    
+                                <p> Boozy.ph
+    
+    
+    
+                                </p>
+    
+                                <p> Mobile Development Lead (Flutter)
+    
+    
+    
+    
+    
+                                </p>
+    
+    
+    
+                                <p>
+                                    Currently the Lead Flutter Developer for Boozy.ph, Jonnie Sindo has worked with multiple teams and different companies such as Bayview Technologies and Imfree Inc. - having developed their apps.Along his journey, he has mentored several mobile developers
+                                    on how to use Flutter technologies. He’s also a core member and speaker of Flutter Philippines!
+    
+    
+                                </p>
+                            </div>
+    
+                        </div>
+                    </div>
+    
+    
+                </div>
+     <div class="container-fluid bg1 p-5">
+    
+    
+                    <div class="row text-center ">
+                        <div class="col-sm-12 my-auto ">
+                            <h1 class="display-4"> Photos </h1>
+                            <img class="img-fluid" src="../assets/imgs/JavaScript.png">
+    
+    
+    
+    
+                        </div>
+                    </div>
+    
+                </div>
+    
+                -->
+
+
+
+
+
+
+
+
+
+            </div>
+        </div>
+
+
+
+    </main>
+
+
+
+    <footer>
+        <div class="container-fluid">
+            <div class="row footerstyling text-center  text-white">
+                <div class="col-sm-12 my-auto">
+                    <p> Developed with 💗 by <a href="devteam.html"> DSC-CPU 2020-2021 </a> </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <script src="../main-dist.js"></script>
+
+
+
+    <!-- GSAP -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.4/gsap.min.js"></script>
 
 
 </body>
-
-
-<footer>
-    <script src="main-dist.js"></script>
-</footer>
-
-
-
-
-
-</html>
