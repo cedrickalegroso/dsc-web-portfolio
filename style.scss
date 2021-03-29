@@ -2,6 +2,8 @@
 html,
 body {
     background-color: white;
+<<<<<<< HEAD
+=======
     overflow-x: hidden;
 }
 
@@ -35,12 +37,18 @@ h3.bg {
     margin-top: 1px;
     font-size: 3rem;
     z-index: -1;
+>>>>>>> upstream/main
 }
 
 #loading {
     display: none;
 }
 
+<<<<<<< HEAD
+#mainscreenwrapper {
+    display: block;
+    background-image: url('/assets/svg/bg.svg');
+=======
 img.nexButton {
     width: 30%;
 }
@@ -202,6 +210,7 @@ img#logoMenuInside {
 #mainscreenwrapper {
     display: block;
     /*background-image: url('/assets/svg/bg.svg');  */
+>>>>>>> upstream/main
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -372,6 +381,11 @@ img#logoMenuInside {
         }
     }
     #contentwrapper {
+<<<<<<< HEAD
+        z-index: 1000;
+        * {
+            font-family: 'Roboto Mono', monospace;
+=======
         ul.techs {
             display: inline-block;
             li {
@@ -448,10 +462,15 @@ img#logoMenuInside {
         img.img-circle {
             border-radius: 100%;
             width: 124px;
+>>>>>>> upstream/main
         }
         h1 {
             color: black;
         }
+<<<<<<< HEAD
+        h1.big-mainscreen {
+            font-size: 10rem;
+=======
         .control {
             cursor: pointer;
             top: 85%;
@@ -460,6 +479,7 @@ img#logoMenuInside {
         }
         h1.big-mainscreen {
             font-size: 100%;
+>>>>>>> upstream/main
         }
         .list-workshops {
             list-style-type: none;
@@ -467,7 +487,18 @@ img#logoMenuInside {
         .cpu {
             display: inline;
             span.a {
+<<<<<<< HEAD
+                display: inline;
+                /* the default for span */
+                width: 100px;
+                height: 100px;
+                padding: 5px;
+                hr.longline {
+                    width: 10%;
+                }
+=======
                 padding: 100px 8%;
+>>>>>>> upstream/main
             }
             span.b {
                 display: inline-block;
@@ -478,6 +509,8 @@ img#logoMenuInside {
             }
         }
     }
+<<<<<<< HEAD
+=======
     .SpeakerMobile {
         padding: 3rem;
     }
@@ -563,4 +596,5 @@ img#logoMenuInside {
         margin-top: 20px;
         text-align: center;
     }
+>>>>>>> upstream/main
 }
